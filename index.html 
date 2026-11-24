@@ -3,19 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mon premier site web</title>
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>PACHA CODE | Portfolio</title>
+
+    <!-- Connexion CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Bienvenue sur mon site web !</h1>
+    <header>
+        <h1>PACHA CODE</h1>
+        <p>Développeur Web en formation</p>
+    </header>
 
-    <p>Je m'appelle Pacha.</p>
+    <main>
 
-    <p>Je suis un développeur web en formation.</p>
+        <div class="hero">
+
+            <h2>Bienvenue sur mon <span>Portfolio</span></h2>
+
+            <p>
+                Je m'appelle Pacha.
+                Je suis passionné par le développement web
+                et les nouvelles technologies.
+            </p>
+
+            <button class="btn" onclick="bienvenue()">
+                Découvrir mon profil
+            </button>
+
+        </div>
+
+        <section>
+
+            <h2>À propos de moi</h2>
+
+            <p>
+                Je suis un développeur web en formation.
+                Mon objectif est de créer des sites web
+                modernes, professionnels et performants.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Mes compétences</h2>
+
+            <div class="skills">
+
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JavaScript</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="annee"></span> PACHA CODE. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Connexion JavaScript -->
+    <script src="script.js"></script>
 
 </body>
-
 </html>
